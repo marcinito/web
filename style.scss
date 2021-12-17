@@ -186,9 +186,10 @@
         background-color: red;
     }
 }
+/////////////////////////////
 @media (min-width:1300px){
     .container{
-        height:150vh;
+        height:100vh;
         overflow:scroll;
     }
     .navbar{
@@ -211,7 +212,7 @@
                 display:flex;
                 justify-content: center;
                 align-items:center;
-                width:100px;
+                width:200px;
              
                 &__a{
                     text-decoration:none;
@@ -220,18 +221,18 @@
                 
             }
             &__li:first-child a{
-                font-size:20px;
+                font-size:30px;
                 font-family: 'Roboto Mono', monospace;
                 text-shadow:1px 1px 1px darkblue;
                
         
             }
             &__li:nth-child(2) a{
-                font-size:20px;
+                font-size:30px;
                 font-family: 'Roboto Mono', monospace;
             }
             &__li:nth-child(3) a{
-                font-size:20px;
+                font-size:30px;
                 font-family: 'Roboto Mono', monospace;
             }
         }
@@ -252,7 +253,7 @@
         &__zdj{
             &__napis{
                 position:relative;
-                top:-170px;
+                top:-230px;
                 color:red;
                 display:flex;
                 justify-content:center;
@@ -267,19 +268,19 @@
                 display:inline;
                 color:white;
                 font-family: 'Shalimar', cursive;
-                font-size:30px;
+                font-size:50px;
             }
         }
         &__buttons{
             position:relative;
-            width:50px;
-            left:160px;
+            width:200px;
+            left:44%;
             display:flex;
             justify-content: center;
-            top:-30px;
+            top:-70px;
          &__a{
-             width:15px;
-             height:15px;
+             width:30px;
+             height:30px;
              border-radius:50%;
              border:1px solid green;
          }
@@ -294,6 +295,7 @@
         width:80%;
         margin:auto;
         box-shadow:1px 1px 1px 1px black;
+        font-size:30px;
     }
     
     }
