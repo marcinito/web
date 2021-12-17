@@ -3,6 +3,7 @@ const h1=document.querySelector(".content__slider__zdj__h1")
 let content=document.querySelector(".content")
 let napis = document.querySelector(".content__slider__zdj__napis")
 let button=document.querySelector(".content__slider__buttons")
+let obietk=document.querySelector(".content__slider__zdj")
 
 
 let cytaty=["True friends are like diamonds — bright, beautiful, valuable, and always in style.","Follow your heart, but take your brain with you.","Be Brave, Be Bold, Be Beautiful, Be You.","Always Look On The Bright Side Of Life.","Difficult roads often lead to beautiful destinations.","Collect Moments Not Things.","Beauty is in the eye of the beholder.","Between the pages of a book is a lovely place to be."]
@@ -29,11 +30,11 @@ index++
 console.log(active)
 /////////////
 let trzy=content.scrollTop
-console.log(window.scrollY)
+
 },2000)
 
 setInterval(()=>{
-    console.log(window.scrollY)
+   
     if(window.scrollY>=130){
 napis.style.opacity="0"
     }
@@ -51,3 +52,6 @@ napis.style.opacity="0"
             }
 
 },100)
+obietk.addEventListener("click",()=>{
+    console.log("siema")
+})

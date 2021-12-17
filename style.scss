@@ -111,8 +111,263 @@
     margin:auto;
     box-shadow:1px 1px 1px 1px black;
 }
+
 }
+
+.footer{
+    height:5vh;
+    background-color: green;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    & a{
+        text-decoration:none;
+    };
+
+}
+.footer:hover{
+    opacity:0.9;
+   
+}
+
 .active{
     background-color: orange;
     border:1px solid yellow;
+}
+//////////////////////////index2
+@keyframes dziobak{
+    0%{transform:translateY(-700px)}
+    10%{transform:translateY(-500px)}
+    20%{transform:translateY(-200px)}
+    30%{transform:translateY(500px)}
+    40%{transform:translateY(400px)}
+    60%{transform:translateY(300px)}
+    70%{transform:translateY(100px)}
+    90%{transform:translateY(0px)}
+    100%{transform:translateY(-700px)}
+}
+.index2{
+
+    &__text{
+        position:absolute;
+        left:210px;
+        top:400px;
+        width:100px;
+        
+    }
+    img{
+        animation:dund 2s;
+        position:relative;
+        top:300px;
+        left:100px;
+    }
+    &__dziobak{
+        position:relative;
+        top:-700px;
+        left:-100px;
+        animation: dziobak 5s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+
+    }
+    &__btn{
+        width:100px;
+        height:30px;
+        position:absolute;
+        top:0;
+        left:92%;
+        border:2px solid lighten(violet,30%);
+        background-color: lighten(purple,2%);
+    }
+    &__btn:hover{
+        background-color: red;
+    }
+}
+@media (min-width:1300px){
+    .container{
+        height:150vh;
+        overflow:scroll;
+    }
+    .navbar{
+        background-color:orange;
+        height:10vh;
+        position:fixed !important;
+        width:100%;
+        opacity:2;
+        
+        
+        top:0;
+        &__ul{
+            background-color: green;
+            height:100%;
+            display:flex;
+            justify-content:center;
+        
+            
+            &__li{
+                display:flex;
+                justify-content: center;
+                align-items:center;
+                width:100px;
+             
+                &__a{
+                    text-decoration:none;
+                    
+                }
+                
+            }
+            &__li:first-child a{
+                font-size:20px;
+                font-family: 'Roboto Mono', monospace;
+                text-shadow:1px 1px 1px darkblue;
+               
+        
+            }
+            &__li:nth-child(2) a{
+                font-size:20px;
+                font-family: 'Roboto Mono', monospace;
+            }
+            &__li:nth-child(3) a{
+                font-size:20px;
+                font-family: 'Roboto Mono', monospace;
+            }
+        }
+      
+    }
+    .content{
+    
+       overflow:scroll;
+        margin-top:10vh;
+        &__slider{
+            width:100%;
+            img{
+                width:100%;
+                height:300px;
+                
+               
+            }
+        &__zdj{
+            &__napis{
+                position:relative;
+                top:-170px;
+                color:red;
+                display:flex;
+                justify-content:center;
+                text-align:justify;
+               
+                width:100%;
+             
+              
+             
+            }
+            &__h1{
+                display:inline;
+                color:white;
+                font-family: 'Shalimar', cursive;
+                font-size:30px;
+            }
+        }
+        &__buttons{
+            position:relative;
+            width:50px;
+            left:160px;
+            display:flex;
+            justify-content: center;
+            top:-30px;
+         &__a{
+             width:15px;
+             height:15px;
+             border-radius:50%;
+             border:1px solid green;
+         }
+        
+      
+         
+        }
+            
+         
+        }
+    &__tresc{
+        width:80%;
+        margin:auto;
+        box-shadow:1px 1px 1px 1px black;
+    }
+    
+    }
+    
+    .footer{
+        height:5vh;
+        background-color: green;
+        position:fixed;
+        bottom:0;
+        width:100%;
+        display:flex;
+        justify-content:space-evenly;
+        align-items: center;
+        & a{
+            text-decoration:none;
+        };
+    
+    }
+    .footer:hover{
+        opacity:0.9;
+       
+    }
+    
+    .active{
+        background-color: orange;
+        border:1px solid yellow;
+    }
+    //////////////////////////index2
+    @keyframes dziobak{
+        0%{transform:translateY(-700px)}
+        10%{transform:translateY(-500px)}
+        20%{transform:translateY(-200px)}
+        30%{transform:translateY(500px)}
+        40%{transform:translateY(400px)}
+        60%{transform:translateY(300px)}
+        70%{transform:translateY(100px)}
+        90%{transform:translateY(0px)}
+        100%{transform:translateY(-700px)}
+    }
+    .index2{
+    
+        &__text{
+            position:absolute;
+            left:600px;
+            top:400px;
+            width:100px;
+            
+        }
+        img{
+            animation:dund 2s;
+            position:relative;
+            top:300px;
+            left:500px;
+        }
+        &__dziobak{
+            position:relative;
+            top:-700px;
+            left:-100px;
+            animation: dziobak 5s;
+            animation-fill-mode: both;
+            animation-iteration-count: infinite;
+    
+        }
+        &__btn{
+            width:100px;
+            height:30px;
+            position:absolute;
+            top:0;
+            left:92%;
+            border:2px solid lighten(violet,30%);
+            background-color: lighten(purple,2%);
+        }
+        &__btn:hover{
+            background-color: red;
+        }
+    }
 }
