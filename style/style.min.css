@@ -480,6 +480,9 @@
               transform: translateY(-700px);
     }
   }
+  .index2 {
+    width: 100%;
+  }
   .index2__text {
     position: absolute;
     left: 600px;
