@@ -1,0 +1,11 @@
+{
+  "name": "marcin",
+  "version": "1.0.0",
+  "description": "strona responsywna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marcin kalwara",
+  "license": "ISC"
+}
